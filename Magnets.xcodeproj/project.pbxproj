@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EAC61C9621ED40FD0003A65D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC61C9521ED40FD0003A65D /* AppDelegate.swift */; };
-		EAC61C9821ED40FD0003A65D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC61C9721ED40FD0003A65D /* ViewController.swift */; };
 		EAC61C9B21ED40FD0003A65D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC61C9921ED40FD0003A65D /* Main.storyboard */; };
 		EAC61C9D21ED40FF0003A65D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC61C9C21ED40FF0003A65D /* Assets.xcassets */; };
 		EAC61CA021ED40FF0003A65D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC61C9E21ED40FF0003A65D /* LaunchScreen.storyboard */; };
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		EAC61C9221ED40FD0003A65D /* Magnets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magnets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC61C9521ED40FD0003A65D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EAC61C9721ED40FD0003A65D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EAC61C9A21ED40FD0003A65D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EAC61C9C21ED40FF0003A65D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAC61C9F21ED40FF0003A65D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				EAC61C9521ED40FD0003A65D /* AppDelegate.swift */,
-				EAC61C9721ED40FD0003A65D /* ViewController.swift */,
 				EAC61CC321ED41120003A65D /* MagnetViewController.swift */,
 				EAC61C9921ED40FD0003A65D /* Main.storyboard */,
 				EAC61C9C21ED40FF0003A65D /* Assets.xcassets */,
@@ -259,7 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAC61C9821ED40FD0003A65D /* ViewController.swift in Sources */,
 				EAC61C9621ED40FD0003A65D /* AppDelegate.swift in Sources */,
 				EAC61CC421ED41120003A65D /* MagnetViewController.swift in Sources */,
 			);
