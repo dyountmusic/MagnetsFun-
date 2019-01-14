@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAC61C9621ED40FD0003A65D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC61C9521ED40FD0003A65D /* AppDelegate.swift */; };
+		EAC61C9821ED40FD0003A65D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC61C9721ED40FD0003A65D /* ViewController.swift */; };
+		EAC61C9B21ED40FD0003A65D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC61C9921ED40FD0003A65D /* Main.storyboard */; };
+		EAC61C9D21ED40FF0003A65D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC61C9C21ED40FF0003A65D /* Assets.xcassets */; };
+		EAC61CA021ED40FF0003A65D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC61C9E21ED40FF0003A65D /* LaunchScreen.storyboard */; };
+		EAC61CAB21ED40FF0003A65D /* MagnetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC61CAA21ED40FF0003A65D /* MagnetsTests.swift */; };
+		EAC61CB621ED40FF0003A65D /* MagnetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC61CB521ED40FF0003A65D /* MagnetsUITests.swift */; };
+		EAC61CC421ED41120003A65D /* MagnetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC61CC321ED41120003A65D /* MagnetViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAC61CA721ED40FF0003A65D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAC61C8A21ED40FD0003A65D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAC61C9121ED40FD0003A65D;
+			remoteInfo = Magnets;
+		};
+		EAC61CB221ED40FF0003A65D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAC61C8A21ED40FD0003A65D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAC61C9121ED40FD0003A65D;
+			remoteInfo = Magnets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAC61C9221ED40FD0003A65D /* Magnets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magnets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC61C9521ED40FD0003A65D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAC61C9721ED40FD0003A65D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAC61C9A21ED40FD0003A65D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAC61C9C21ED40FF0003A65D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAC61C9F21ED40FF0003A65D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAC61CA121ED40FF0003A65D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAC61CA621ED40FF0003A65D /* MagnetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagnetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC61CAA21ED40FF0003A65D /* MagnetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetsTests.swift; sourceTree = "<group>"; };
+		EAC61CAC21ED40FF0003A65D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAC61CB121ED40FF0003A65D /* MagnetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagnetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC61CB521ED40FF0003A65D /* MagnetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetsUITests.swift; sourceTree = "<group>"; };
+		EAC61CB721ED40FF0003A65D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAC61CC321ED41120003A65D /* MagnetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAC61C8F21ED40FD0003A65D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC61CA321ED40FF0003A65D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC61CAE21ED40FF0003A65D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAC61C8921ED40FD0003A65D = {
+			isa = PBXGroup;
+			children = (
+				EAC61C9421ED40FD0003A65D /* Magnets */,
+				EAC61CA921ED40FF0003A65D /* MagnetsTests */,
+				EAC61CB421ED40FF0003A65D /* MagnetsUITests */,
+				EAC61C9321ED40FD0003A65D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAC61C9321ED40FD0003A65D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAC61C9221ED40FD0003A65D /* Magnets.app */,
+				EAC61CA621ED40FF0003A65D /* MagnetsTests.xctest */,
+				EAC61CB121ED40FF0003A65D /* MagnetsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAC61C9421ED40FD0003A65D /* Magnets */ = {
+			isa = PBXGroup;
+			children = (
+				EAC61C9521ED40FD0003A65D /* AppDelegate.swift */,
+				EAC61C9721ED40FD0003A65D /* ViewController.swift */,
+				EAC61CC321ED41120003A65D /* MagnetViewController.swift */,
+				EAC61C9921ED40FD0003A65D /* Main.storyboard */,
+				EAC61C9C21ED40FF0003A65D /* Assets.xcassets */,
+				EAC61C9E21ED40FF0003A65D /* LaunchScreen.storyboard */,
+				EAC61CA121ED40FF0003A65D /* Info.plist */,
+			);
+			path = Magnets;
+			sourceTree = "<group>";
+		};
+		EAC61CA921ED40FF0003A65D /* MagnetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAC61CAA21ED40FF0003A65D /* MagnetsTests.swift */,
+				EAC61CAC21ED40FF0003A65D /* Info.plist */,
+			);
+			path = MagnetsTests;
+			sourceTree = "<group>";
+		};
+		EAC61CB421ED40FF0003A65D /* MagnetsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAC61CB521ED40FF0003A65D /* MagnetsUITests.swift */,
+				EAC61CB721ED40FF0003A65D /* Info.plist */,
+			);
+			path = MagnetsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAC61C9121ED40FD0003A65D /* Magnets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC61CBA21ED40FF0003A65D /* Build configuration list for PBXNativeTarget "Magnets" */;
+			buildPhases = (
+				EAC61C8E21ED40FD0003A65D /* Sources */,
+				EAC61C8F21ED40FD0003A65D /* Frameworks */,
+				EAC61C9021ED40FD0003A65D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Magnets;
+			productName = Magnets;
+			productReference = EAC61C9221ED40FD0003A65D /* Magnets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAC61CA521ED40FF0003A65D /* MagnetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC61CBD21ED40FF0003A65D /* Build configuration list for PBXNativeTarget "MagnetsTests" */;
+			buildPhases = (
+				EAC61CA221ED40FF0003A65D /* Sources */,
+				EAC61CA321ED40FF0003A65D /* Frameworks */,
+				EAC61CA421ED40FF0003A65D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAC61CA821ED40FF0003A65D /* PBXTargetDependency */,
+			);
+			name = MagnetsTests;
+			productName = MagnetsTests;
+			productReference = EAC61CA621ED40FF0003A65D /* MagnetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAC61CB021ED40FF0003A65D /* MagnetsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC61CC021ED40FF0003A65D /* Build configuration list for PBXNativeTarget "MagnetsUITests" */;
+			buildPhases = (
+				EAC61CAD21ED40FF0003A65D /* Sources */,
+				EAC61CAE21ED40FF0003A65D /* Frameworks */,
+				EAC61CAF21ED40FF0003A65D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAC61CB321ED40FF0003A65D /* PBXTargetDependency */,
+			);
+			name = MagnetsUITests;
+			productName = MagnetsUITests;
+			productReference = EAC61CB121ED40FF0003A65D /* MagnetsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAC61C8A21ED40FD0003A65D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Daniel Yount";
+				TargetAttributes = {
+					EAC61C9121ED40FD0003A65D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EAC61CA521ED40FF0003A65D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EAC61C9121ED40FD0003A65D;
+					};
+					EAC61CB021ED40FF0003A65D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EAC61C9121ED40FD0003A65D;
+					};
+				};
+			};
+			buildConfigurationList = EAC61C8D21ED40FD0003A65D /* Build configuration list for PBXProject "Magnets" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAC61C8921ED40FD0003A65D;
+			productRefGroup = EAC61C9321ED40FD0003A65D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAC61C9121ED40FD0003A65D /* Magnets */,
+				EAC61CA521ED40FF0003A65D /* MagnetsTests */,
+				EAC61CB021ED40FF0003A65D /* MagnetsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAC61C9021ED40FD0003A65D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC61CA021ED40FF0003A65D /* LaunchScreen.storyboard in Resources */,
+				EAC61C9D21ED40FF0003A65D /* Assets.xcassets in Resources */,
+				EAC61C9B21ED40FD0003A65D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC61CA421ED40FF0003A65D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC61CAF21ED40FF0003A65D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAC61C8E21ED40FD0003A65D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC61C9821ED40FD0003A65D /* ViewController.swift in Sources */,
+				EAC61C9621ED40FD0003A65D /* AppDelegate.swift in Sources */,
+				EAC61CC421ED41120003A65D /* MagnetViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC61CA221ED40FF0003A65D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC61CAB21ED40FF0003A65D /* MagnetsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC61CAD21ED40FF0003A65D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC61CB621ED40FF0003A65D /* MagnetsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAC61CA821ED40FF0003A65D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAC61C9121ED40FD0003A65D /* Magnets */;
+			targetProxy = EAC61CA721ED40FF0003A65D /* PBXContainerItemProxy */;
+		};
+		EAC61CB321ED40FF0003A65D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAC61C9121ED40FD0003A65D /* Magnets */;
+			targetProxy = EAC61CB221ED40FF0003A65D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAC61C9921ED40FD0003A65D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAC61C9A21ED40FD0003A65D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAC61C9E21ED40FF0003A65D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAC61C9F21ED40FF0003A65D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAC61CB821ED40FF0003A65D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAC61CB921ED40FF0003A65D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAC61CBB21ED40FF0003A65D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93KKH99Z5P;
+				INFOPLIST_FILE = Magnets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielyount.Magnets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAC61CBC21ED40FF0003A65D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93KKH99Z5P;
+				INFOPLIST_FILE = Magnets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielyount.Magnets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAC61CBE21ED40FF0003A65D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93KKH99Z5P;
+				INFOPLIST_FILE = MagnetsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielyount.MagnetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magnets.app/Magnets";
+			};
+			name = Debug;
+		};
+		EAC61CBF21ED40FF0003A65D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93KKH99Z5P;
+				INFOPLIST_FILE = MagnetsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielyount.MagnetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magnets.app/Magnets";
+			};
+			name = Release;
+		};
+		EAC61CC121ED40FF0003A65D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93KKH99Z5P;
+				INFOPLIST_FILE = MagnetsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielyount.MagnetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Magnets;
+			};
+			name = Debug;
+		};
+		EAC61CC221ED40FF0003A65D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93KKH99Z5P;
+				INFOPLIST_FILE = MagnetsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielyount.MagnetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Magnets;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAC61C8D21ED40FD0003A65D /* Build configuration list for PBXProject "Magnets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC61CB821ED40FF0003A65D /* Debug */,
+				EAC61CB921ED40FF0003A65D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAC61CBA21ED40FF0003A65D /* Build configuration list for PBXNativeTarget "Magnets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC61CBB21ED40FF0003A65D /* Debug */,
+				EAC61CBC21ED40FF0003A65D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAC61CBD21ED40FF0003A65D /* Build configuration list for PBXNativeTarget "MagnetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC61CBE21ED40FF0003A65D /* Debug */,
+				EAC61CBF21ED40FF0003A65D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAC61CC021ED40FF0003A65D /* Build configuration list for PBXNativeTarget "MagnetsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC61CC121ED40FF0003A65D /* Debug */,
+				EAC61CC221ED40FF0003A65D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAC61C8A21ED40FD0003A65D /* Project object */;
+}
